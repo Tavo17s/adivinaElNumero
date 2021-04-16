@@ -9,6 +9,7 @@ var interval = setInterval(clock, 1000);
 
 button1.addEventListener("click", function guessNumber() {
   let userNumber = Number(answer.value);
+
   console.log(userNumber);
   if (userNumber == "0") {
     msg2.textContent = "Ingresa un número";
