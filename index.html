@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Reloj -->
+    <section>
+      <div class="clock">
+        <div class="contenedor">
+          <h2 id="hour">00</h2>
+          <h2 class="dot">:</h2>
+          <h2 id="minute">00</h2>
+          <h2 class="dot">:</h2>
+          <h2 id="seconds">00</h2>
+          <span id="ampm">AM</span>
+        </div>
+      </div>
+    </section>
+
+    <!--Evento principal-->
+    <div class="container">
+      <h3>Estoy pensando en un número entre [1-1000]</h3>
+      <br />
+      <h3>¿Sabes cuál es ese número?</h3>
+      <input type="text" id="answer" placeholder="Número" />
+      <br />
+      <ul>
+        <button id="myBtn1">Adivinar</button>
+        <button id="myBtn2">Reiniciar</button>
+      </ul>
+      <p id="message1">No. de intentos: 10</p>
+      <br />
+      <p id="message2"></p>
+    </div>
+  </body>
+  <script src="function.js"></script>
+</html>
